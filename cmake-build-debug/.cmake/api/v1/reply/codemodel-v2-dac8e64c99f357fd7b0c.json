@@ -1,0 +1,114 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "SP_SIIS_2025",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "zad1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zad1-Debug-51b7abae778a2b9592de.json",
+					"name" : "zad1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zad2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zad2-Debug-2c8a8a46c584de1ebae1.json",
+					"name" : "zad2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zad3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zad3-Debug-dcfc77a9d9c16305ccac.json",
+					"name" : "zad3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zad4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zad4-Debug-6979af9f7b4035368047.json",
+					"name" : "zad4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zad5::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zad5-Debug-7b56818cc3a333c69d36.json",
+					"name" : "zad5",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zad6::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zad6-Debug-29753e6ce981bc0128d7.json",
+					"name" : "zad6",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zad7::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zad7-Debug-5abba07bbf939475e3aa.json",
+					"name" : "zad7",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/stefanandonov/CLionProjects/SP_SIIS_2025/cmake-build-debug",
+		"source" : "/Users/stefanandonov/CLionProjects/SP_SIIS_2025"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

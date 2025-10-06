@@ -1,0 +1,325 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: SP_SIIS_2025
+# Configurations: Debug
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.5
+
+
+#############################################
+# Set configuration variable for custom commands.
+
+CONFIGURATION = Debug
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/stefanandonov/CLionProjects/SP_SIIS_2025/cmake-build-debug/
+# =============================================================================
+# Object build statements for EXECUTABLE target zad1
+
+
+#############################################
+# Order-only phony target for zad1
+
+build cmake_object_order_depends_target_zad1: phony || CMakeFiles/zad1.dir
+
+build CMakeFiles/zad1.dir/aud1/zad1.cpp.o: CXX_COMPILER__zad1_Debug /Users/stefanandonov/CLionProjects/SP_SIIS_2025/aud1/zad1.cpp || cmake_object_order_depends_target_zad1
+  DEP_FILE = CMakeFiles/zad1.dir/aud1/zad1.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/zad1.dir
+  OBJECT_FILE_DIR = CMakeFiles/zad1.dir/aud1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target zad1
+
+
+#############################################
+# Link the executable zad1
+
+build zad1: CXX_EXECUTABLE_LINKER__zad1_Debug CMakeFiles/zad1.dir/aud1/zad1.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk
+  OBJECT_DIR = CMakeFiles/zad1.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = zad1
+  TARGET_PDB = zad1.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target zad2
+
+
+#############################################
+# Order-only phony target for zad2
+
+build cmake_object_order_depends_target_zad2: phony || CMakeFiles/zad2.dir
+
+build CMakeFiles/zad2.dir/aud1/zad2.cpp.o: CXX_COMPILER__zad2_Debug /Users/stefanandonov/CLionProjects/SP_SIIS_2025/aud1/zad2.cpp || cmake_object_order_depends_target_zad2
+  DEP_FILE = CMakeFiles/zad2.dir/aud1/zad2.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/zad2.dir
+  OBJECT_FILE_DIR = CMakeFiles/zad2.dir/aud1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target zad2
+
+
+#############################################
+# Link the executable zad2
+
+build zad2: CXX_EXECUTABLE_LINKER__zad2_Debug CMakeFiles/zad2.dir/aud1/zad2.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk
+  OBJECT_DIR = CMakeFiles/zad2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = zad2
+  TARGET_PDB = zad2.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target zad3
+
+
+#############################################
+# Order-only phony target for zad3
+
+build cmake_object_order_depends_target_zad3: phony || CMakeFiles/zad3.dir
+
+build CMakeFiles/zad3.dir/aud1/zad3.cpp.o: CXX_COMPILER__zad3_Debug /Users/stefanandonov/CLionProjects/SP_SIIS_2025/aud1/zad3.cpp || cmake_object_order_depends_target_zad3
+  DEP_FILE = CMakeFiles/zad3.dir/aud1/zad3.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/zad3.dir
+  OBJECT_FILE_DIR = CMakeFiles/zad3.dir/aud1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target zad3
+
+
+#############################################
+# Link the executable zad3
+
+build zad3: CXX_EXECUTABLE_LINKER__zad3_Debug CMakeFiles/zad3.dir/aud1/zad3.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk
+  OBJECT_DIR = CMakeFiles/zad3.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = zad3
+  TARGET_PDB = zad3.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target zad4
+
+
+#############################################
+# Order-only phony target for zad4
+
+build cmake_object_order_depends_target_zad4: phony || CMakeFiles/zad4.dir
+
+build CMakeFiles/zad4.dir/aud1/zad4.cpp.o: CXX_COMPILER__zad4_Debug /Users/stefanandonov/CLionProjects/SP_SIIS_2025/aud1/zad4.cpp || cmake_object_order_depends_target_zad4
+  DEP_FILE = CMakeFiles/zad4.dir/aud1/zad4.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/zad4.dir
+  OBJECT_FILE_DIR = CMakeFiles/zad4.dir/aud1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target zad4
+
+
+#############################################
+# Link the executable zad4
+
+build zad4: CXX_EXECUTABLE_LINKER__zad4_Debug CMakeFiles/zad4.dir/aud1/zad4.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk
+  OBJECT_DIR = CMakeFiles/zad4.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = zad4
+  TARGET_PDB = zad4.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target zad5
+
+
+#############################################
+# Order-only phony target for zad5
+
+build cmake_object_order_depends_target_zad5: phony || CMakeFiles/zad5.dir
+
+build CMakeFiles/zad5.dir/aud1/zad5.cpp.o: CXX_COMPILER__zad5_Debug /Users/stefanandonov/CLionProjects/SP_SIIS_2025/aud1/zad5.cpp || cmake_object_order_depends_target_zad5
+  DEP_FILE = CMakeFiles/zad5.dir/aud1/zad5.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/zad5.dir
+  OBJECT_FILE_DIR = CMakeFiles/zad5.dir/aud1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target zad5
+
+
+#############################################
+# Link the executable zad5
+
+build zad5: CXX_EXECUTABLE_LINKER__zad5_Debug CMakeFiles/zad5.dir/aud1/zad5.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk
+  OBJECT_DIR = CMakeFiles/zad5.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = zad5
+  TARGET_PDB = zad5.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target zad6
+
+
+#############################################
+# Order-only phony target for zad6
+
+build cmake_object_order_depends_target_zad6: phony || CMakeFiles/zad6.dir
+
+build CMakeFiles/zad6.dir/aud1/zad6.cpp.o: CXX_COMPILER__zad6_Debug /Users/stefanandonov/CLionProjects/SP_SIIS_2025/aud1/zad6.cpp || cmake_object_order_depends_target_zad6
+  DEP_FILE = CMakeFiles/zad6.dir/aud1/zad6.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/zad6.dir
+  OBJECT_FILE_DIR = CMakeFiles/zad6.dir/aud1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target zad6
+
+
+#############################################
+# Link the executable zad6
+
+build zad6: CXX_EXECUTABLE_LINKER__zad6_Debug CMakeFiles/zad6.dir/aud1/zad6.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk
+  OBJECT_DIR = CMakeFiles/zad6.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = zad6
+  TARGET_PDB = zad6.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target zad7
+
+
+#############################################
+# Order-only phony target for zad7
+
+build cmake_object_order_depends_target_zad7: phony || CMakeFiles/zad7.dir
+
+build CMakeFiles/zad7.dir/aud1/zad7.cpp.o: CXX_COMPILER__zad7_Debug /Users/stefanandonov/CLionProjects/SP_SIIS_2025/aud1/zad7.cpp || cmake_object_order_depends_target_zad7
+  DEP_FILE = CMakeFiles/zad7.dir/aud1/zad7.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/zad7.dir
+  OBJECT_FILE_DIR = CMakeFiles/zad7.dir/aud1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target zad7
+
+
+#############################################
+# Link the executable zad7
+
+build zad7: CXX_EXECUTABLE_LINKER__zad7_Debug CMakeFiles/zad7.dir/aud1/zad7.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk
+  OBJECT_DIR = CMakeFiles/zad7.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = zad7
+  TARGET_PDB = zad7.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/stefanandonov/CLionProjects/SP_SIIS_2025/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/stefanandonov/CLionProjects/SP_SIIS_2025/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/stefanandonov/CLionProjects/SP_SIIS_2025 -B/Users/stefanandonov/CLionProjects/SP_SIIS_2025/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Target aliases.
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/stefanandonov/CLionProjects/SP_SIIS_2025/cmake-build-debug
+
+build all: phony zad1 zad2 zad3 zad4 zad5 zad6 zad7
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/stefanandonov/CLionProjects/SP_SIIS_2025/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/stefanandonov/CLionProjects/SP_SIIS_2025/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake: phony
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all
